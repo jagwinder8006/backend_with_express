@@ -1,0 +1,21 @@
+{
+  "name": "chaibackend",
+  "version": "1.0.0",
+  "description": "backend with chai aur code",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "chai",
+    "backend"
+  ],
+  "author": "jagwinder singh",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
+  }
+}
