@@ -1,15 +1,15 @@
-// api/index.js
 const express = require('express');
+require('dotenv').config();
 const app = express();
-const serverless = require('serverless-http');
 
 app.get('/', (req, res) => {
-  res.send('Hello World! from Vercel');
+  res.send('Hello World!ccccc');
 });
 
 app.get('/twitter', (req, res) => {
-  res.send('<h1>Hello ji, doston ki haal chaal</h1>');
+  res.send('<h1>hello ji doston ki haal chaal aw hhghhhg</h1>');
 });
 
-module.exports = app;
-module.exports.handler = serverless(app);
+app.listen(process.env.PORT, () => {
+  console.log(`Example app listening on port ${process.env.PORT}`);
+});
