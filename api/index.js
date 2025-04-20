@@ -3,7 +3,7 @@ const serverless = require('serverless-http');
 
 const app = express();
 
-app.use('/', (req, res) => {
+app.get('/', (req, res) => {
   res.send('Hello World! from Vercel');
 });
 
